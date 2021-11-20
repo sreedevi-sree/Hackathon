@@ -1,5 +1,14 @@
-#dog_result{
-    width:500px;
-    height: 500px;
-    margin: 50px;
+body{
+    background-color: aqua;
+}
+#image{
+    margin-top: 20px;
+width: 100px;
+height: 100px;    
+}
+#result{
+    color:blue;
+}
+#result::nth-child(1) {
+    background-color: red;
 }
